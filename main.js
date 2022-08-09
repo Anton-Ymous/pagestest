@@ -1,7 +1,5 @@
-fetch("test.json")
-  .then(response => response.json())
-  .then(json => console.log(json));
-
+var mydata = JSON.parse(test);
+console.log(mydata);
 
 document.querySelector("button").addEventListener("click", ()=>{
     let newElem = document.createElement("div");
