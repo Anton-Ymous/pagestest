@@ -1,5 +1,5 @@
 var mydata = JSON.parse(test);
-console.log(mydata);
+console.log(mydata)
 
 document.querySelector("button").addEventListener("click", ()=>{
     let newElem = document.createElement("div");
