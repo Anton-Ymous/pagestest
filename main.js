@@ -1,4 +1,5 @@
-console.log(new Date().toDateString());
+var mydata = JSON.parse(data);
+console.log(mydata);
 
 document.querySelector("button").addEventListener("click", ()=>{
     let newElem = document.createElement("div");
